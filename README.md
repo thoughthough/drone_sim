@@ -64,7 +64,6 @@ We worked well together making timely and incremental progress on this sprint.We
  [Youtube Presentation Link](https://youtu.be/kcOyvIg9XmA)
  
 [Github Project](https://github.umn.edu/umn-csci-3081-s24/team-001-01-finalproject)
-# UML
-![Singleton UML](uml.png)
+
 
 
