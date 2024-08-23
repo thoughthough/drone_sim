@@ -1,8 +1,6 @@
-**Section:** 001 
-**Team:** 01
 
 
-* Zachary Ross zachary.ross.w@gmail.com
+# Zachary Ross zachary.ross.w@gmail.com
 
 
 
@@ -14,7 +12,7 @@ Internally, the map of the campus is represented as a graph, so in order to comp
 
 
 # Running The Simulation
-To run the simulation, first navigate to the directory csci-3081w-s24/team-001-01-finalproject and then run the following commands.
+To run the simulation, first navigate to the directory team-001-01-finalproject and then run the following commands.
 Run the commands 
 
 ```
@@ -31,7 +29,7 @@ The simulation can be ended by clicking the "Stop Simulation" button in the UI. 
 
 
 # The Feature
-Our feature adds the ability to collect and store data related to each delivery in a global database which is then written to a CSV file. 
+This feature adds the ability to collect and store data related to each delivery in a global database which is then written to a CSV file. 
 This is interesting because it allows you to apply various statistical techniques to analyze the behaviour and performance of different aspects of the model, in our case how each search strategy performed. This adds to the previous work you miss out on a lot of useful information if you have way of collecting data while the simulation is running.
 
 In order to maintain a global database, the DataCollector class needs to cache the data for each completed delivery . Each drone accessing a different instance of the DataCollector class adds complicated logic to the program.  In addition, this approach does not scale very well as each drone using the database needs to create a new instance of the Database class. We chose the Singleton design pattern to implement this feature as itt addresses these issues. Only  one instance of the DataCollector class is created for which is globally accessible. This is resource efficient, allows all data to be cached in one instance, makes it simpler to access, and makes the logic around writing the data more streamlined.
