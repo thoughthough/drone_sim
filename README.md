@@ -6,7 +6,7 @@
 
 
 # Overview 
-Our program was designed to simulate the delivery of packages on the University of Minnesota campus. The model includes  a frontend that allows users to, through a browser, schedule deliveries and visualize them in real time by using 3D models of the campus as well as the multiple entities that exist in the model. These entities include drones which deliver the packages, robots which receive the deliveries, humans, a helicopter, and the packages themselves.
+This program is designed to simulate the delivery of packages on the University of Minnesota campus. The model includes  a frontend that allows users to, through a browser, schedule deliveries and visualize them in real time by using 3D models of the campus as well as the multiple entities that exist in the model. These entities include drones which deliver the packages, robots which receive the deliveries, humans, a helicopter, and the packages themselves.
 The front end communicates with a backend that calculates the updated state of the model, which is then sent back to the frontend to be displayed to the user. 
 Internally, the map of the campus is represented as a graph, so in order to complete the delivery, drones are assigned one four different path finding algorithms that they will use to navigate to their destination. During a session, data about each delivery is collected and stored in a csv format, and from which graphs are automatically generated in order to better analyze the data.
 
